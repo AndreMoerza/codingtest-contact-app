@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Contact(Snapshot) Create Contact  1`] = `
+<div
+  className="ui centered two column grid"
+>
+  <div
+    className="column"
+  >
+    <h1
+      style={
+        Object {
+          "marginTop": "1em",
+        }
+      }
+    >
+      Add New Contact
+    </h1>
+    <form
+      className="ui form"
+      onSubmit={[Function]}
+    >
+      <div
+        className="equal width fields"
+      >
+        <div
+          className="field"
+        >
+          <label>
+            First Name
+          </label>
+          <input
+            name="firstName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            placeholder="First Name"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="field"
+        >
+          <label>
+            Last Name
+          </label>
+          <input
+            name="lastName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            placeholder="Last Name"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="equal width fields"
+      >
+        <div
+          className="field"
+        >
+          <label>
+            Age
+          </label>
+          <input
+            name="age"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            placeholder="Age"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="field"
+        >
+          <label>
+            Photo URL
+          </label>
+          <input
+            name="photo"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            placeholder="Photo URL"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <button
+        className="ui primary disabled button"
+        disabled={true}
+        onClick={[Function]}
+        tabIndex={-1}
+        type="submit"
+      >
+        Save
+      </button>
+    </form>
+  </div>
+</div>
+`;
